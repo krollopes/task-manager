@@ -1,25 +1,87 @@
-# Task Manager
+# 📝 Task Manager - Drag & Drop
 
-## Descrição
-Este projeto é um gerenciador de tarefas que permite aos usuários criar, editar e excluir tarefas.
+Um gerenciador de tarefas simples e eficiente, onde você pode **adicionar, arrastar e organizar tarefas** facilmente utilizando **React, Zustand e React DnD**.
 
-## Instalação
-Para instalar as dependências do projeto, execute:
+![Task Manager Preview](https://via.placeholder.com/800x400?text=Task+Manager+Preview)
+*(Adicione um screenshot do projeto aqui depois que estiver pronto!)*
+
+## 🚀 Tecnologias Utilizadas
+
+- **React** (Vite + TypeScript)
+- **Zustand** (gerenciamento de estado)
+- **React DnD** (drag & drop)
+- **Styled Components** (estilização)
+- **pnpm** (gerenciador de pacotes)
+
+## 🎯 Funcionalidades
+
+✅ Criar novas tarefas
+✅ Arrastar e soltar tarefas entre colunas
+✅ Organizar tarefas por status: **To Do**, **In Progress**, **Done**
+✅ Persistência temporária com Zustand
+
+---
+
+## 📦 **Instalação e Uso**
+
+1️⃣ Clone este repositório
 ```bash
-npm install
+git clone https://github.com/seu-usuario/task-manager.git
+cd task-manager
 ```
 
-## Uso
-Para iniciar o projeto, execute:
+2️⃣ Instale as dependências
 ```bash
-npm start
+pnpm install
 ```
 
-## Testes
-Para rodar os testes, execute:
+3️⃣ Rode o projeto
 ```bash
-npm test
+pnpm run dev
 ```
 
-## Contribuição
-Para contribuir com o projeto, por favor, faça um fork do repositório e envie um pull request.
+O projeto estará disponível em **http://localhost:5173** 🚀
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+📂 task-manager
+ ┣ 📂 src
+ ┃ ┣ 📂 components
+ ┃ ┃ ┣ 📜 TaskCard.tsx
+ ┃ ┃ ┣ 📜 TaskColumn.tsx
+ ┃ ┣ 📂 store
+ ┃ ┃ ┣ 📜 taskStore.ts
+ ┃ ┣ 📜 App.tsx
+ ┣ 📜 package.json
+ ┣ 📜 tsconfig.json
+ ┣ 📜 vite.config.ts
+ ┣ 📜 README.md
+```
+
+---
+
+## 🚀 Como Funciona?
+
+1️⃣ Digite um nome para a tarefa e clique em **"Add"**
+2️⃣ Arraste e solte a tarefa para organizar os status
+3️⃣ **To Do** → **In Progress** → **Done**
+
+---
+
+## 🛠 Melhorias Futuras
+
+🔹 **Persistência no Local Storage**
+🔹 **Dark Mode**
+🔹 **Remover tarefas**
+🔹 **Adicionar prazos e categorias**
+
+---
+
+## 📜 Licença
+
+Este projeto está sob a licença **MIT**. Sinta-se à vontade para usar, modificar e contribuir!
+
+🚀 Desenvolvido por [@krollopes](https://github.com/krollopes/)
