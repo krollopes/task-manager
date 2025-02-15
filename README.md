@@ -2,8 +2,7 @@
 
 Um gerenciador de tarefas simples e eficiente, onde você pode **adicionar, arrastar e organizar tarefas** facilmente utilizando **React, Zustand e React DnD**.
 
-![Task Manager Preview](https://via.placeholder.com/800x400?text=Task+Manager+Preview)
-*(Adicione um screenshot do projeto aqui depois que estiver pronto!)*
+![Task Manager Preview](https://github.com/user-attachments/assets/3361a7c2-a199-4294-a23f-fd9cfa9a8c9a)
 
 ## 🚀 Tecnologias Utilizadas
 
