@@ -22,7 +22,7 @@ const App = () => {
         />
         <button
           onClick={() => {
-            addTask(newTask);
+            addTask(newTask, 'Default description');
             setNewTask('');
           }}
         >
